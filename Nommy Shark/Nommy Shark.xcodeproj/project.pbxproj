@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B268C6F1CDFC34A0040E3CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B268C6E1CDFC34A0040E3CC /* main.m */; };
+		9B268C721CDFC34A0040E3CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B268C711CDFC34A0040E3CC /* AppDelegate.m */; };
+		9B268C751CDFC34A0040E3CC /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B268C741CDFC34A0040E3CC /* GameScene.m */; };
+		9B268C771CDFC34A0040E3CC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9B268C761CDFC34A0040E3CC /* GameScene.sks */; };
+		9B268C7A1CDFC34A0040E3CC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B268C791CDFC34A0040E3CC /* GameViewController.m */; };
+		9B268C7D1CDFC34A0040E3CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B268C7B1CDFC34A0040E3CC /* Main.storyboard */; };
+		9B268C7F1CDFC34A0040E3CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B268C7E1CDFC34A0040E3CC /* Assets.xcassets */; };
+		9B268C821CDFC34A0040E3CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B268C801CDFC34A0040E3CC /* LaunchScreen.storyboard */; };
+		9B268C8D1CDFC34A0040E3CC /* Nommy_SharkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B268C8C1CDFC34A0040E3CC /* Nommy_SharkTests.m */; };
+		9B268C981CDFC34A0040E3CC /* Nommy_SharkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B268C971CDFC34A0040E3CC /* Nommy_SharkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B268C891CDFC34A0040E3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B268C621CDFC34A0040E3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B268C691CDFC34A0040E3CC;
+			remoteInfo = "Nommy Shark";
+		};
+		9B268C941CDFC34A0040E3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B268C621CDFC34A0040E3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B268C691CDFC34A0040E3CC;
+			remoteInfo = "Nommy Shark";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B268C6A1CDFC34A0040E3CC /* Nommy Shark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nommy Shark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B268C6E1CDFC34A0040E3CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B268C701CDFC34A0040E3CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B268C711CDFC34A0040E3CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B268C731CDFC34A0040E3CC /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		9B268C741CDFC34A0040E3CC /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		9B268C761CDFC34A0040E3CC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9B268C781CDFC34A0040E3CC /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		9B268C791CDFC34A0040E3CC /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		9B268C7C1CDFC34A0040E3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B268C7E1CDFC34A0040E3CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B268C811CDFC34A0040E3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B268C831CDFC34A0040E3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B268C881CDFC34A0040E3CC /* Nommy SharkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nommy SharkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B268C8C1CDFC34A0040E3CC /* Nommy_SharkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nommy_SharkTests.m; sourceTree = "<group>"; };
+		9B268C8E1CDFC34A0040E3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B268C931CDFC34A0040E3CC /* Nommy SharkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nommy SharkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B268C971CDFC34A0040E3CC /* Nommy_SharkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nommy_SharkUITests.m; sourceTree = "<group>"; };
+		9B268C991CDFC34A0040E3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B268C671CDFC34A0040E3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B268C851CDFC34A0040E3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B268C901CDFC34A0040E3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B268C611CDFC34A0040E3CC = {
+			isa = PBXGroup;
+			children = (
+				9B268C6C1CDFC34A0040E3CC /* Nommy Shark */,
+				9B268C8B1CDFC34A0040E3CC /* Nommy SharkTests */,
+				9B268C961CDFC34A0040E3CC /* Nommy SharkUITests */,
+				9B268C6B1CDFC34A0040E3CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B268C6B1CDFC34A0040E3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B268C6A1CDFC34A0040E3CC /* Nommy Shark.app */,
+				9B268C881CDFC34A0040E3CC /* Nommy SharkTests.xctest */,
+				9B268C931CDFC34A0040E3CC /* Nommy SharkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B268C6C1CDFC34A0040E3CC /* Nommy Shark */ = {
+			isa = PBXGroup;
+			children = (
+				9B268C701CDFC34A0040E3CC /* AppDelegate.h */,
+				9B268C711CDFC34A0040E3CC /* AppDelegate.m */,
+				9B268C731CDFC34A0040E3CC /* GameScene.h */,
+				9B268C741CDFC34A0040E3CC /* GameScene.m */,
+				9B268C761CDFC34A0040E3CC /* GameScene.sks */,
+				9B268C781CDFC34A0040E3CC /* GameViewController.h */,
+				9B268C791CDFC34A0040E3CC /* GameViewController.m */,
+				9B268C7B1CDFC34A0040E3CC /* Main.storyboard */,
+				9B268C7E1CDFC34A0040E3CC /* Assets.xcassets */,
+				9B268C801CDFC34A0040E3CC /* LaunchScreen.storyboard */,
+				9B268C831CDFC34A0040E3CC /* Info.plist */,
+				9B268C6D1CDFC34A0040E3CC /* Supporting Files */,
+			);
+			path = "Nommy Shark";
+			sourceTree = "<group>";
+		};
+		9B268C6D1CDFC34A0040E3CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B268C6E1CDFC34A0040E3CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B268C8B1CDFC34A0040E3CC /* Nommy SharkTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B268C8C1CDFC34A0040E3CC /* Nommy_SharkTests.m */,
+				9B268C8E1CDFC34A0040E3CC /* Info.plist */,
+			);
+			path = "Nommy SharkTests";
+			sourceTree = "<group>";
+		};
+		9B268C961CDFC34A0040E3CC /* Nommy SharkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B268C971CDFC34A0040E3CC /* Nommy_SharkUITests.m */,
+				9B268C991CDFC34A0040E3CC /* Info.plist */,
+			);
+			path = "Nommy SharkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B268C691CDFC34A0040E3CC /* Nommy Shark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B268C9C1CDFC34A0040E3CC /* Build configuration list for PBXNativeTarget "Nommy Shark" */;
+			buildPhases = (
+				9B268C661CDFC34A0040E3CC /* Sources */,
+				9B268C671CDFC34A0040E3CC /* Frameworks */,
+				9B268C681CDFC34A0040E3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nommy Shark";
+			productName = "Nommy Shark";
+			productReference = 9B268C6A1CDFC34A0040E3CC /* Nommy Shark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B268C871CDFC34A0040E3CC /* Nommy SharkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B268C9F1CDFC34A0040E3CC /* Build configuration list for PBXNativeTarget "Nommy SharkTests" */;
+			buildPhases = (
+				9B268C841CDFC34A0040E3CC /* Sources */,
+				9B268C851CDFC34A0040E3CC /* Frameworks */,
+				9B268C861CDFC34A0040E3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B268C8A1CDFC34A0040E3CC /* PBXTargetDependency */,
+			);
+			name = "Nommy SharkTests";
+			productName = "Nommy SharkTests";
+			productReference = 9B268C881CDFC34A0040E3CC /* Nommy SharkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B268C921CDFC34A0040E3CC /* Nommy SharkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B268CA21CDFC34A0040E3CC /* Build configuration list for PBXNativeTarget "Nommy SharkUITests" */;
+			buildPhases = (
+				9B268C8F1CDFC34A0040E3CC /* Sources */,
+				9B268C901CDFC34A0040E3CC /* Frameworks */,
+				9B268C911CDFC34A0040E3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B268C951CDFC34A0040E3CC /* PBXTargetDependency */,
+			);
+			name = "Nommy SharkUITests";
+			productName = "Nommy SharkUITests";
+			productReference = 9B268C931CDFC34A0040E3CC /* Nommy SharkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B268C621CDFC34A0040E3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Shayla Fitzpatrick";
+				TargetAttributes = {
+					9B268C691CDFC34A0040E3CC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9B268C871CDFC34A0040E3CC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9B268C691CDFC34A0040E3CC;
+					};
+					9B268C921CDFC34A0040E3CC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9B268C691CDFC34A0040E3CC;
+					};
+				};
+			};
+			buildConfigurationList = 9B268C651CDFC34A0040E3CC /* Build configuration list for PBXProject "Nommy Shark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B268C611CDFC34A0040E3CC;
+			productRefGroup = 9B268C6B1CDFC34A0040E3CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B268C691CDFC34A0040E3CC /* Nommy Shark */,
+				9B268C871CDFC34A0040E3CC /* Nommy SharkTests */,
+				9B268C921CDFC34A0040E3CC /* Nommy SharkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B268C681CDFC34A0040E3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B268C771CDFC34A0040E3CC /* GameScene.sks in Resources */,
+				9B268C821CDFC34A0040E3CC /* LaunchScreen.storyboard in Resources */,
+				9B268C7F1CDFC34A0040E3CC /* Assets.xcassets in Resources */,
+				9B268C7D1CDFC34A0040E3CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B268C861CDFC34A0040E3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B268C911CDFC34A0040E3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B268C661CDFC34A0040E3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B268C7A1CDFC34A0040E3CC /* GameViewController.m in Sources */,
+				9B268C721CDFC34A0040E3CC /* AppDelegate.m in Sources */,
+				9B268C751CDFC34A0040E3CC /* GameScene.m in Sources */,
+				9B268C6F1CDFC34A0040E3CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B268C841CDFC34A0040E3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B268C8D1CDFC34A0040E3CC /* Nommy_SharkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B268C8F1CDFC34A0040E3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B268C981CDFC34A0040E3CC /* Nommy_SharkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B268C8A1CDFC34A0040E3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B268C691CDFC34A0040E3CC /* Nommy Shark */;
+			targetProxy = 9B268C891CDFC34A0040E3CC /* PBXContainerItemProxy */;
+		};
+		9B268C951CDFC34A0040E3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B268C691CDFC34A0040E3CC /* Nommy Shark */;
+			targetProxy = 9B268C941CDFC34A0040E3CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B268C7B1CDFC34A0040E3CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B268C7C1CDFC34A0040E3CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B268C801CDFC34A0040E3CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B268C811CDFC34A0040E3CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B268C9A1CDFC34A0040E3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B268C9B1CDFC34A0040E3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B268C9D1CDFC34A0040E3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nommy Shark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "simmons.Nommy-Shark";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B268C9E1CDFC34A0040E3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nommy Shark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "simmons.Nommy-Shark";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B268CA01CDFC34A0040E3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Nommy SharkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "simmons.Nommy-SharkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nommy Shark.app/Nommy Shark";
+			};
+			name = Debug;
+		};
+		9B268CA11CDFC34A0040E3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nommy SharkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "simmons.Nommy-SharkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nommy Shark.app/Nommy Shark";
+			};
+			name = Release;
+		};
+		9B268CA31CDFC34A0040E3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Nommy SharkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "simmons.Nommy-SharkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nommy Shark";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B268CA41CDFC34A0040E3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Nommy SharkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "simmons.Nommy-SharkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nommy Shark";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B268C651CDFC34A0040E3CC /* Build configuration list for PBXProject "Nommy Shark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B268C9A1CDFC34A0040E3CC /* Debug */,
+				9B268C9B1CDFC34A0040E3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B268C9C1CDFC34A0040E3CC /* Build configuration list for PBXNativeTarget "Nommy Shark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B268C9D1CDFC34A0040E3CC /* Debug */,
+				9B268C9E1CDFC34A0040E3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B268C9F1CDFC34A0040E3CC /* Build configuration list for PBXNativeTarget "Nommy SharkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B268CA01CDFC34A0040E3CC /* Debug */,
+				9B268CA11CDFC34A0040E3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B268CA21CDFC34A0040E3CC /* Build configuration list for PBXNativeTarget "Nommy SharkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B268CA31CDFC34A0040E3CC /* Debug */,
+				9B268CA41CDFC34A0040E3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B268C621CDFC34A0040E3CC /* Project object */;
+}
